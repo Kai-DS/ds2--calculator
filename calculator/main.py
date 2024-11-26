@@ -253,5 +253,6 @@ def main(page: ft.Page):
     page.title = "Scientific Calc App"
     calc = CalculatorApp()
     page.add(calc)
+    
 
 ft.app(target=main)
